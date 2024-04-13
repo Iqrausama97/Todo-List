@@ -16,7 +16,7 @@ let addTask = await inquirer.prompt(
             name: "addMore",
             type: "confirm",
             message: "Do you want to add more?",
-            default: "fasle"
+            default: "true"
         }
     ]
 );

@@ -1,3 +1,4 @@
+#! /usr/bin/env node
 import inquirer from "inquirer";
 let todolist = [];
 let loop = true;
@@ -12,7 +13,7 @@ while (loop) {
             name: "addMore",
             type: "confirm",
             message: "Do you want to add more?",
-            default: "fasle"
+            default: "true"
         }
     ]);
     todolist.push(addTask.todo);
